@@ -1,0 +1,6 @@
+FormationDotNetDebutant.sdf
+FormationDotNetDebutant.suo
+bin/
+obj/
+*.opensdf
+packages/
