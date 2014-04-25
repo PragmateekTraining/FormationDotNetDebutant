@@ -8,8 +8,19 @@ namespace Basics
 {
     class Program
     {
+        class A
+        {
+            public static void F() { }
+        }
+
+        class B : A
+        {
+        }
+
         static void Main(string[] args)
         {
+            B.F();
+
             new PrePostSample().Run();
         }
     }

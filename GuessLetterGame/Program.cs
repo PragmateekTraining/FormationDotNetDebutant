@@ -18,8 +18,11 @@ namespace GuessLetterGame
                 // Flag set when the user has found the correct letter.
                 bool userHasWon = false;
 
+                DateTimeOffset startTime = DateTimeOffset.UtcNow;
+
+                int attemptsLeft = 10;
                 // Game loop: run while the user has not yet guessed the correct answer and while it has some attempts left.
-                for (int attemptsLeft = 10; !userHasWon && attemptsLeft > 0; --attemptsLeft)
+                for (; !userHasWon && attemptsLeft > 0; --attemptsLeft)
                 {
                     Console.WriteLine("{0} more guess{1}.", attemptsLeft, attemptsLeft > 1 ? "es" : "");
 
@@ -63,7 +66,15 @@ namespace GuessLetterGame
                 // The game loop has ended because the user has won...
                 if (userHasWon)
                 {
+                    DateTimeOffset endTime = DateTimeOffset.UtcNow;
+
+                    TimeSpan duration = endTime - startTime;
+
+                    double hitRatio = 1.0 * (attemptsLeft + 1) / 10;
                     Console.WriteLine("You've won ... nothing!");
+                    Console.WriteLine("Statistics:\n" +
+                                      "\tHit ratio: {0:0.00}%\n" +
+                                      "\tTotal time: {1:0.0}s", 100 * hitRatio, duration.TotalSeconds);
                 }
                 // ... or because he has exhausted all the attempts!
                 else
