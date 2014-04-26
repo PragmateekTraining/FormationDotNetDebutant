@@ -41,9 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ShoppingCart\ShoppingCartItemV3.cs" />
     <Compile Include="ShoppingCart\ShoppingCartItemSample.cs" />
     <Compile Include="ShoppingCart\ShoppingCartItemV2.cs" />
-    <Compile Include="ShoppingCart\ShoppingCartItem.cs" />
+    <Compile Include="ShoppingCart\ShoppingCartItemV1.cs" />
     <Compile Include="Quote\Quote.cs" />
     <Compile Include="Quote\QuoteBasic.cs" />
     <Compile Include="Program.cs" />

@@ -6,21 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    public class ShoppingCartItemV2
+    public class ShoppingCartItemV3
     {
-        private string product;
-        public string Product
-        {
-            get { return product; }
-            set { product = value; }
-        }
-
-        private decimal price;
-        public decimal Price
-        {
-            get { return price; }
-            set { price = value; }
-        }
+        public string Product { get; set; }
+        public decimal Price { get; set; }
 
         private int quantity;
         public int Quantity
