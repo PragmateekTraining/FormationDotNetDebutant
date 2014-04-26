@@ -41,11 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Quote.cs" />
-    <Compile Include="QuoteBasic.cs" />
+    <Compile Include="ShoppingCart\ShoppingCartItemSample.cs" />
+    <Compile Include="ShoppingCart\ShoppingCartItemV2.cs" />
+    <Compile Include="ShoppingCart\ShoppingCartItem.cs" />
+    <Compile Include="Quote\Quote.cs" />
+    <Compile Include="Quote\QuoteBasic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuoteSample.cs" />
+    <Compile Include="Quote\QuoteSample.cs" />
+    <Compile Include="ShoppingCart\ShoppingCartItemBasic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

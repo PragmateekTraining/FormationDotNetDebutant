@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OOP
+﻿namespace OOP
 {
     class Program
     {
         static void Main(string[] args)
         {
-            new QuoteSample().Run();
+            // new QuoteSample().Run();
+            new ShoppingCartItemSample().Run();
         }
     }
 }
