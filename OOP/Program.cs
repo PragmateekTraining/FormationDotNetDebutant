@@ -5,7 +5,8 @@
         static void Main(string[] args)
         {
             // new QuoteSample().Run();
-            new ShoppingCartItemSample().Run();
+            // new ShoppingCartItemSample().Run();
+            new ShoppingCartSample().Run();
         }
     }
 }

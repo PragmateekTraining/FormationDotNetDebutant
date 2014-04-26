@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP
 {
-    public class ShoppingCartItemV3
+    public class ShoppingCartItem
     {
         public string Product { get; set; }
         public decimal Price { get; set; }
@@ -26,11 +26,16 @@ namespace OOP
             }
         }
 
+        private decimal discount;
         public decimal Discount
         {
             get
             {
-                return 0.9m;
+                return discount;
+            }
+            private set
+            {
+                discount = value;
             }
         }
 
@@ -40,6 +45,18 @@ namespace OOP
             {
                 return Price * Quantity * Discount;
             }
+        }
+
+        public ShoppingCartItem()
+        {
+        }
+
+        public ShoppingCartItem(ShoppingCartItem item)
+        {
+            Product = item.Product;
+            Price = item.Price;
+            Quantity = item.Quantity;
+            Discount = item.Discount;
         }
     }
 }
