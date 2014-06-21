@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectInitializerSample.cs" />
     <Compile Include="ShoppingCart\ShoppingCartSample.cs" />
     <Compile Include="ShoppingCart\ShoppingCart.cs" />
     <Compile Include="ShoppingCart\ShoppingCartItem.cs" />
