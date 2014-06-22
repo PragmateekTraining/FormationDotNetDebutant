@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <SubConfigurations>
+    <SubConfiguration Timestamp="2014-01-01T12:34:56">
+    </SubConfiguration>
+    <UIConfiguration Timestamp="2014-01-01T12:34:56">
+      <IsFullScreen>true</IsFullScreen>
+    </UIConfiguration>
+    <NetworkConfiguration>
+      <ServerAddress>12.34.56.78</ServerAddress>
+    </NetworkConfiguration>
+    <DBConfiguration Timestamp="2014-01-05T23:45:00">
+      <DBServerHost>datastore</DBServerHost>
+      <DBServerSchema>CRM</DBServerSchema>
+    </DBConfiguration>
+  </SubConfigurations>
+</Configuration>
