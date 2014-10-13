@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLSample", "XMLSample\XMLS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVCleanup", "CSVCleanup\CSVCleanup.csproj", "{004EB574-D284-4C4B-89BC-925F4E779997}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicalOperators", "LogicalOperators\LogicalOperators.csproj", "{BBFEC859-87E3-4A39-86AD-CF34D5C07C69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{004EB574-D284-4C4B-89BC-925F4E779997}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{004EB574-D284-4C4B-89BC-925F4E779997}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{004EB574-D284-4C4B-89BC-925F4E779997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBFEC859-87E3-4A39-86AD-CF34D5C07C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBFEC859-87E3-4A39-86AD-CF34D5C07C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBFEC859-87E3-4A39-86AD-CF34D5C07C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBFEC859-87E3-4A39-86AD-CF34D5C07C69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
