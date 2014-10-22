@@ -9,6 +9,7 @@ namespace OOP
     public class ShoppingCartItem
     {
         public string Product { get; set; }
+        public string Category { get; set; }
         public decimal Price { get; set; }
 
         private int quantity;
